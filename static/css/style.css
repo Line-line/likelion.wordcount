@@ -1,0 +1,64 @@
+h3{
+    color: dimgrey;
+}
+
+
+.container {
+    width: 70%;
+    height: 70%;
+    margin: 40px auto;
+}
+
+.outer {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.centered {
+    position: relative;
+    display: inline-block;
+
+    width: 50%;
+    padding: 1em;
+    background: orange;
+    color: white;
+}
+
+.explain {
+    background: rgb(0, 137, 179);
+    color: white;
+    padding: 20px 0px;
+}
+
+.count-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(153, 151, 151);
+    text-align: right;
+}
+
+#nav-free {
+    margin-top: -40px ;
+    margin-bottom: 10px;
+}
+
+.about {
+    border: 1px solid cornflowerblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.print {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.moreabout {
+    text-align: left;
+}
